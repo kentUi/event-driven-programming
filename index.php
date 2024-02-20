@@ -1,4 +1,4 @@
-
+    <h1>Hello</h1>
     <?php
     // Updated Version 1.1
     include('./config/database.php');
