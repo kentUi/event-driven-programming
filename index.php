@@ -1,5 +1,6 @@
 
     <?php
+    // Updated Version 1.1
     include('./config/database.php');
 
     $sql = "SELECT * FROM ph_region WHERE regDesc LIKE 'region i%'";
