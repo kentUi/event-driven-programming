@@ -6,8 +6,9 @@
 Github Comment
 
 > git clone {URL}
+
 > git add .
-> git commint -m "Version Controll"
+> git commint -m "Version Control"
 > git push -u origin console
 
 > git pull 
