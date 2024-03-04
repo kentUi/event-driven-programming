@@ -36,60 +36,20 @@
                         <a class="nav-link" href="/registration.php">Registration</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input onkeyup="search(this.value)" class="form-control me-2" type="text"
-                        placeholder="Search anything here..">
-                    <button class="btn btn-primary" type="button">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 
     <div class="container">
-        <p class="h2 mt-3">Dashboard</p>
-        <p>You can view all the recorded data on this dashboard.</p>
+        <p class="h2 mt-3">Registration</p>
+        <p>You can add record for student here.</p>
         <div class="card mt-3">
             <div class="card-header">List of Students</div>
             <div class="card-body">
-                <table class="table table-bordered table-hover">
-                    <thead>
-                        <tr>
-                            <th width="150" style="text-align: center;">Student ID</th>
-                            <th style="text-align: left; padding-left: 10px">Complete Name</th>
-                            <th width="50" style="text-align: center;">Action</th>
-                        </tr>
-                    </thead>
-                    <tbody id="results">
-
-                    </tbody>
-                </table>
+               
             </div>
             <div class="card-footer">
                 -
-            </div>
-        </div>
-
-        <div class="modal fade" id="view-details">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">Student Information</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        Modal body..
-                    </div>
-
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    </div>
-
-                </div>
             </div>
         </div>
     </div>
